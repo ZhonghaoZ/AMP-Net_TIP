@@ -11,7 +11,7 @@ If you use this code, please kindly cite ...
 ## Dataset
 We use BSDS500 for training, validation and testing, and Set11 is for testing.
 BSDS500 contains 500 colorful images. And we use its luminance componient for all experiments.
-Users can download the pre-processed BSDS500 from [GoogleDrive](https://drive.google.com/file/d/1sghDOPR9Ehucq9yLfQ2pEiG2ckMu70cY/view),
+Users can download the pre-processed BSDS500 from [GoogleDrive](https://drive.google.com/file/d/1sghDOPR9Ehucq9yLfQ2pEiG2ckMu70cY/view?usp=sharing),
 and extract it under **./dataset/**.
 
 **dataset.py** contains two classes for packaged training sets. 
@@ -40,4 +40,6 @@ And the average PSNR and SSIM of AMP-Net can be obtained using these four files.
 We emphasize that users can generate reconstructed images by adding a few codes in the function **get_val_result**.
 
 ## Pre-trained mdels
-We provide the pre-trained models used in the paper so that users can use them for testing directly. All pre-trained AMP-Net models can be found in [GoogleDrive](). These models are stored in the path as **model_name/num1/num2**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
+We provide the pre-trained models used in the paper so that users can use them for testing directly.
+
+All pre-trained AMP-Net models can be found in [GoogleDrive](https://drive.google.com/drive/folders/1O_tX7T__ANWXIWGytpHciFMbMfXviRjv?usp=sharing). These models are stored in the path as **model_name/num1/num2**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
