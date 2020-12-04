@@ -40,4 +40,4 @@ And the average PSNR and SSIM of AMP-Net can be obtained using these four files.
 We emphasize that users can generate reconstructed images by adding a few codes in the function **get_val_result**.
 
 ## Pre-trained mdels
-We provide the pre-trained models used in the paper. Users can use them for testing directly.
+We provide the pre-trained models used in the paper so that users can use them for testing directly. All pre-trained AMP-Net models can be found in [GoogleDrive](). These models are stored in the path as **model_name/num1/num2**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
