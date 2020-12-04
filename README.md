@@ -20,5 +20,13 @@ and extract it under **./dataset/**.
 Users can generate packaged datasets by using this two classes.
 
 ## Training
+Four forms of AMP-Net are trained in the paper.
+
+* **AMP-Net**: AMP-Net without deblocking module and trained sampling matrix.
+* **AMP-Net-D**: AMP-Net with deblocking modules.
+* **AMP-Net-M**: AMP-Net with the trained sampling matrix.
+* **AMP-Net-DM**: AMP-Net with deblocking modules and the trained sampling matrix.
 
 ## Testing
+
+## Acknowledgement
