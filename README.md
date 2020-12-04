@@ -7,6 +7,7 @@ If you use this code, please kindly cite ...
 * Python 3.5 (or higher)
 * Pytorch 1.2~1.7 with NVIDIA GPU or CPU (We did not test other versions)
 * numpy
+* scipy
 
 ## Dataset
 We use BSDS500 for training, validation and testing, and Set11 is for testing.
