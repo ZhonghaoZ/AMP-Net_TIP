@@ -1,8 +1,10 @@
 # AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing
 This repository provides a pytorch-based implementation of paper **AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing** which is accepted by **IEEE Transactions on Image Processing**.
 
+If you use this code, please kindly cite ...
+
 ## Prerequisites
-* Python 3.6 (or higher)
+* Python 3.5 (or higher)
 * Pytorch 1.2~1.7 with NVIDIA GPU or CPU (We did not test other versions)
 * numpy
 
@@ -22,11 +24,20 @@ Users can generate packaged datasets by using this two classes.
 ## Training
 Four forms of AMP-Net are trained in the paper.
 
-* **AMP-Net**: AMP-Net without deblocking module and trained sampling matrix.
-* **AMP-Net-D**: AMP-Net with deblocking modules.
-* **AMP-Net-M**: AMP-Net with the trained sampling matrix.
-* **AMP-Net-DM**: AMP-Net with deblocking modules and the trained sampling matrix.
+* **AMP-Net-*K***: AMP-Net with *K* denoising modules and without deblocking module and trained sampling matrix.
+* **AMP-Net-B**: AMP-Net-*K* with deblocking modules.
+* **AMP-Net-M**: AMP-Net-*K* with the trained sampling matrix.
+* **AMP-Net-BM**: AMP-Net-*K* with deblocking modules and the trained sampling matrix.
+
+`train_AMP_Net.py`, `train_AMP_Net_B.py`, `train_AMP_Net_M.py` and `train_AMP_Net_BM.py` are used to train these four models respectively. 
+Trained models can be found in **./results/**.
+
 
 ## Testing
+`test_AMP_Net.py`, `test_AMP_Net_B.py`, `test_AMP_Net_M.py` and `test_AMP_Net_BM.py` are used to test above four models respectively.
+And the average PSNR and SSIM of AMP-Net can be obtained using these four files.
 
-## Acknowledgement
+We emphasize that users can generate reconstructed images by adding a few codes in the function **get_val_result**.
+
+## Pre-trained mdels
+We provide the pre-trained models used in the paper. Users can use them for testing directly.
