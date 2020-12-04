@@ -1,5 +1,5 @@
 # AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing
-This repository provides a pytorch-based implementation of paper **AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing** which is accepted by **IEEE Transactions on Image Processing**.
+This repository provides a pytorch-based implementation of the model proposed by the paper **AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing** which is accepted by **IEEE Transactions on Image Processing**.
 
 If you use this code, please kindly cite ...
 
@@ -19,7 +19,7 @@ and extract it under **./dataset/**.
 * class **dataset**: is developed for dataset contains images sized of 33*33.
 * class **dataset_full**: is developed for dataset contains images sized of 99*99.
 
-Users can generate packaged datasets by using this two classes.
+Users can generate and use packaged datasets using this two classes.
 
 ## Training
 Four forms of AMP-Net are trained in the paper.
@@ -42,4 +42,6 @@ We emphasize that users can generate reconstructed images by adding a few codes 
 ## Pre-trained mdels
 We provide the pre-trained models used in the paper so that users can use them for testing directly.
 
-All pre-trained AMP-Net models can be found in [GoogleDrive](https://drive.google.com/drive/folders/1O_tX7T__ANWXIWGytpHciFMbMfXviRjv?usp=sharing). These models are stored in the path as **model_name/num1/num2**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
+All pre-trained AMP-Net models can be found in [GoogleDrive](https://drive.google.com/drive/folders/1O_tX7T__ANWXIWGytpHciFMbMfXviRjv?usp=sharing). These models are stored in the path as
+**model_name/num1/num2**,
+where **num1**% is the CS ratio and  **num2** is the number of the phase.
