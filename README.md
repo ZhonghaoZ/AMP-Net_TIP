@@ -40,7 +40,7 @@ And the average PSNR and SSIM of AMP-Net can be obtained using these four files.
 
 We emphasize that users can generate reconstructed images by adding a few codes in the function **get_val_result**.
 
-## Pre-trained mdels
+## Pre-trained models
 We provide the pre-trained models used in the paper so that users can use them for testing directly.
 
 All pre-trained AMP-Net models can be found in [GoogleDrive](https://drive.google.com/drive/folders/1O_tX7T__ANWXIWGytpHciFMbMfXviRjv?usp=sharing). These models are stored in the path as
