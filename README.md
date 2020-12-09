@@ -43,11 +43,11 @@ Using these files, two results can be obtained:
 
 The path of the test set can be set in the the function **get_val_result**.
 
-Generated images are stored in the path as **results/generated_images/model_name/num1/num2/**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
+Generated images are stored in the path as **results/generated_images/model_name/num1/num2/**, where **num1**% is the CS ratio and  **num2** is the number of the iteration.
 
 ## Pre-trained models
 We provide the pre-trained models used in the paper so that users can use them for testing directly.
 
 All pre-trained AMP-Net models can be found in [GoogleDrive](https://drive.google.com/drive/folders/1O_tX7T__ANWXIWGytpHciFMbMfXviRjv?usp=sharing). These models are stored in the path as
 **model_name/num1/num2**,
-where **num1**% is the CS ratio and  **num2** is the number of the phase.
+where **num1**% is the CS ratio and  **num2** is the number of the iteration.
