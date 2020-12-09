@@ -39,7 +39,7 @@ Trained models can be found in **./results/**.
 Using these files, two results can be obtained:
 
 * Average PSNR and SSIM of the test set. 
-* Reconstructed images named as **name_PSNR_SSIM.jpg**. 
+* Reconstructed images named as **imageName_PSNR_SSIM.jpg**. 
 
 The path of the test set can be set in the the function **get_val_result**.
 
