@@ -36,9 +36,10 @@ Trained models can be found in **./results/**.
 
 ## Testing
 `test_AMP_Net.py`, `test_AMP_Net_B.py`, `test_AMP_Net_M.py` and `test_AMP_Net_BM.py` are used to test above four models respectively.
-And the average PSNR and SSIM of AMP-Nets on a specific testing set can be obtained using these four files.
+Using these files, two results can be obtained:
 
-We emphasize that users can generate reconstructed images by adding a few codes in the function **get_val_result**.
+* Average PSNR and SSIM on the test set. The path of the test set can be set in the the function **get_val_result**.
+* Reconstructed images named as **name_PSNR_SSIM.jpg**. Images are stored in the path as **results/generated_images/model_name/num1/num2**, where **num1**% is the CS ratio and  **num2** is the number of the phase.
 
 ## Pre-trained models
 We provide the pre-trained models used in the paper so that users can use them for testing directly.
