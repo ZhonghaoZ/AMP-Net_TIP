@@ -4,7 +4,7 @@ This repository provides a pytorch-based implementation of the model proposed by
 If you use this code, please kindly cite ...
 
 ## Prerequisites
-* Python 3.5 (or higher)
+* Python 3.6~3.7 (We did not test other versions)
 * Pytorch 1.2~1.7 with NVIDIA GPU or CPU (We did not test other versions)
 * numpy
 * scipy
