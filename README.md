@@ -5,7 +5,7 @@ If you use this code, please kindly cite
 ```
 @article{zhang2020amp,
               title = {AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing},
-              author = {Zhang, Zhong-hao and Liu, Yi-peng and Liu, Jia-ni and Wen, Fei and Zhu, Ce},
+              author = {Zhang, Zhonghao and Liu, Yipeng and Liu, Jiani and Wen, Fei and Zhu, Ce},
               journal = {IEEE Transactions on Image Processing},
               year = {2020},
               publisher = {IEEE},
