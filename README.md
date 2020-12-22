@@ -18,7 +18,7 @@ If you use this code, please kindly cite
 * numpy
 * scipy
 
-## Dataset
+## Datasets
 We use BSDS500 for training, validation and testing, and Set11 is for testing.
 BSDS500 contains 500 colorful images. And we use its luminance componient for all experiments.
 Users can download the pre-processed BSDS500 from [GoogleDrive](https://drive.google.com/file/d/1sghDOPR9Ehucq9yLfQ2pEiG2ckMu70cY/view?usp=sharing),
