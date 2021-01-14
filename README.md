@@ -14,7 +14,7 @@ If you use this code, please kindly cite
 	doi={10.1109/TIP.2020.3044472}}
 ```
 
-If you have any question about the code or the paper, please email **zhonghaozhang@yeah.net**.
+If you have any question about the code or the paper, please email zhonghaozhang@yeah.net.
 
 ## Prerequisites
 * Python 3.6~3.7 (We did not test other versions)
