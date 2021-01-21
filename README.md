@@ -9,7 +9,6 @@ If you use this code, please kindly cite
 	title={AMP-Net: Denoising-Based Deep Unfolding for Compressive Image Sensing}, 
 	year={2021},
 	volume={30},
-	number={},
 	pages={1487-1500},
 	doi={10.1109/TIP.2020.3044472}}
 ```
