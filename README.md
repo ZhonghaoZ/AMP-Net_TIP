@@ -1,4 +1,4 @@
-# AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing
+# AMP-Net: Denoising-based Deep Unfolding for Compressive Image Sensing
 This repository provides a pytorch-based implementation of the model proposed by the paper [**AMP-Net: Denoising based Deep Unfolding for Compressive Image Sensing**](https://ieeexplore.ieee.org/document/9298950) which is published in **IEEE Transactions on Image Processing**.
 
 If you use this code, please kindly cite 
